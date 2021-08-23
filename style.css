@@ -1,0 +1,33 @@
+div.section{
+    text-align: center;
+}
+
+.word{
+    width: 300px;
+    font-family: Garamond;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.sig{
+    margin: 0px 50px;
+    display: inline-block;
+    text-align: left;
+    font-size: 22px;
+    vertical-align: top;
+    height: 300px;
+    position: relative;
+
+}
+
+.from{
+    font-size: 15px;
+    position: absolute;
+    bottom: 0;
+}
+
+.name{
+    font-size: 15px;
+    position: absolute;
+    bottom: 20px;
+}
