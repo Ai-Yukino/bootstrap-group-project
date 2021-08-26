@@ -1,0 +1,92 @@
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
+
+body {
+  background-color:grey
+
+//*.mission {
+	background-color: #323232;
+	color: #F7FAFE;
+	margin-top: -30px;
+	
+}*//
+
+.mission h1 {
+	font-family: 'sans-serif';
+	padding: 0;
+	text-align: left;
+	position: fixed;
+
+}
+
+.mission h1 {
+	font-family: 'sans-serif';
+	padding: 0;
+	text-align: center;
+	position: fixed;
+
+}
+
+.btn-default{
+  width:100%;
+  background-color:white;
+  margin:5px!;
+}
+
+.buttoncontainer {
+  margin: 100%;
+  width: 100px;
+  padding: 25px;
+}
+
+
+}
+
+
+.features {
+	padding: 5% 0;
+}
+
+.container {
+	font-family: 'Roboto','sans-serif;
+	text-align: center;
+	color:inline-block#323232;
+	font-size: 80px;
+	padding-top: 20px;
+}
+
+
+footer {
+	background-color: #D64541;
+	position: absolute;
+	width: 100%;
+	height: auto;
+}
+
+footer ul li {
+	display: inline-block;
+	list-style: none;
+	float: right;
+	
+}
+
+footer p {
+	float: left;
+}
+
+footer a,
+footer p {
+
+	vertical-align: middle;
+
+
+}
+
+
+/********************
+MEDIA QUERIES
+********************/
+@media screen and (max-width: 776px) {
+	.features img {
+		max-width: 90%;
+		margin: auto;
+	}
