@@ -127,3 +127,29 @@
   color: #5c7c91;
   border: 1px solid #212326;
 }
+.card-text {
+  text-align: left;
+  color: white;
+  font-size: 65px;
+  font-family: 'Source Serif Pro', serif;
+  padding-top: 16px; 
+
+}
+
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.navbar
+{  
+  background-color: #212326; /*whichever you want*/
+  font-family: 'Comfortaa', cursive; 
+  font-size: 14px;
+           
+}
+
+.navbar a {
+  color: white;
+}
