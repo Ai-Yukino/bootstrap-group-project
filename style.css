@@ -1,0 +1,279 @@
+/* Organization
+🍂Main component🍃 -> 🌿Subcomponent🌿 -> 🌱sub-subcomponent🌱
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+#placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  background-color: lightgray;
+  height: 200vh;
+}
+
+/* 🍂Footer and contact banner🍃 */
+/* 🌿Contact banner🌿 */
+.contact-banner-wrap {
+  background-repeat: no-repeat;
+  background-image: url("https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://tinyhorse.com/wp-content/uploads/2019/04/Tiny-Horse-Marketing-Agency-Contact.jpg");
+  background-attachment: scroll;
+  background-position: center center;
+  color: white;
+}
+
+.contact-banner {
+  width: 63.5%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.contact-banner > h6 {
+  line-height: 1.6em;
+  font-size: 14px;
+}
+.contact-banner > p {
+  line-height: 1.7em;
+  margin: 0.85em 0;
+  font-size: 40px;
+  font-family: serif;
+}
+.contact-banner a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 🌿Footer🌿 */
+.footer-wrap {
+  background-color: #212326;
+  color: #5c7c91;
+}
+.footer-wrap > * {
+  width: 63.5%;
+  background-color: #212326;
+}
+
+/* 🌱Logo banner🌱 */
+.logo-banner {
+  color: white;
+  padding: 15px 0 30px;
+  height: 36vh;
+}
+.logo-banner > div {
+  width: 33%;
+}
+.logo-banner h6 {
+  line-height: 1.6em;
+  margin-top: 1.5em;
+  font-size: 14px;
+}
+
+.logo-col {
+  margin: 30px 0;
+}
+.logo-col img {
+  max-width: 200px;
+}
+.logo-col > img {
+  margin-bottom: -1em;
+}
+
+.address-col > h6 > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.address-col,
+.locations-col {
+  margin-top: 2em;
+}
+
+/* 🌱Copyright line🌱 */
+.copyright {
+  color: #5c7c91;
+  font-size: 11px;
+}
+.copyright > a {
+  text-decoration: none;
+  color: inherit;
+}
+.copyright > a:hover {
+  color: #ce6451;
+}
+
+/* 🍂Button for scrolling to the top🍃 */
+#scroll-top-button {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  z-index: 1030;
+  border-radius: 2px;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  transition: all 0.3s ease-out;
+  background-color: #212326;
+  opacity: 0.7;
+  text-decoration: none;
+  color: #5c7c91;
+  border: 1px solid #212326;
+  font-weight: bold;
+}
+#scroll-top-button:hover {
+  background-color: #f8f8f8;
+  color: #5c7c91;
+  border: 1px solid #212326;
+}
+.card-text {
+  text-align: left;
+  color: white;
+  font-size: 65px;
+  font-family: 'Source Serif Pro', serif;
+  padding-top: 16px; 
+
+}
+
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.navbar
+{  
+  background-color: #212326; /*whichever you want*/
+  font-family: 'Comfortaa', cursive; 
+  font-size: 14px;
+           
+}
+
+.navbar a {
+  color: white;
+}
+
+body {
+  background-color:grey
+}
+/*.mission {
+	background-color: #323232;
+	color: #F7FAFE;
+	margin-top: -30px;
+	
+}*/
+
+.mission h1 {
+	font-family: 'sans-serif';
+	padding: 0;
+	text-align: left;
+	position: fixed;
+
+}
+
+.mission h1 {
+	font-family: 'sans-serif';
+	padding: 0;
+	text-align: center;
+	position: fixed;
+
+}
+
+.btn-default{
+  width:100%;
+  background-color:white;
+  margin:5px!;
+}
+
+.buttoncontainer {
+  margin: 100%;
+  width: 100px;
+  padding: 25px;
+}
+
+
+
+
+
+.features {
+	padding: 5% 0;
+}
+
+.container {
+	font-family: 'Roboto','sans-serif';
+	text-align: center;
+	color:inline-block#323232;
+	font-size: 80px;
+	padding-top: 20px;
+}
+
+
+footer {
+	background-color: #D64541;
+	position: absolute;
+	width: 100%;
+	height: auto;
+}
+
+footer ul li {
+	display: inline-block;
+	list-style: none;
+	float: right;
+	
+}
+
+footer p {
+	float: left;
+}
+
+footer a,
+footer p {
+
+	vertical-align: middle;
+
+
+}
+
+div.section{
+  text-align: center;
+}
+
+.word{
+  width: 300px;
+  font-family: Garamond;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.sig{
+  margin: 0px 50px;
+  display: inline-block;
+  text-align: left;
+  font-size: 22px;
+  vertical-align: top;
+  height: 300px;
+  position: relative;
+
+}
+
+.from{
+  font-size: 15px;
+  position: absolute;
+  bottom: 0;
+}
+
+.name{
+  font-size: 15px;
+  position: absolute;
+  bottom: 20px;
+}
+
+/********************
+MEDIA QUERIES
+********************/
+/* @media screen and (max-width: 776px) {
+	.features img {
+		max-width: 90%;
+		margin: auto;
+	} */
