@@ -131,23 +131,19 @@
   text-align: left;
   color: white;
   font-size: 65px;
-  font-family: 'Source Serif Pro', serif;
-  padding-top: 16px; 
-
+  font-family: "Source Serif Pro", serif;
+  padding-top: 16px;
 }
-
 
 .responsive {
   max-width: 100%;
   height: auto;
 }
 
-.navbar
-{  
+.navbar {
   background-color: #212326; /*whichever you want*/
-  font-family: 'Comfortaa', cursive; 
+  font-family: "Comfortaa", cursive;
   font-size: 14px;
-           
 }
 
 .navbar a {
@@ -155,35 +151,33 @@
 }
 
 body {
-  background-color:grey
+  background-color: grey;
 }
 /*.mission {
-	background-color: #323232;
-	color: #F7FAFE;
-	margin-top: -30px;
-	
-}*/
+      background-color: #323232;
+      color: #F7FAFE;
+      margin-top: -30px;
+      
+  }*/
 
 .mission h1 {
-	font-family: 'sans-serif';
-	padding: 0;
-	text-align: left;
-	position: fixed;
-
+  font-family: "sans-serif";
+  padding: 0;
+  text-align: left;
+  position: fixed;
 }
 
 .mission h1 {
-	font-family: 'sans-serif';
-	padding: 0;
-	text-align: center;
-	position: fixed;
-
+  font-family: "sans-serif";
+  padding: 0;
+  text-align: center;
+  position: fixed;
 }
 
-.btn-default{
-  width:100%;
-  background-color:white;
-  margin:5px!;
+.btn-default {
+  width: 100%;
+  background-color: white;
+  margin: 5px!;
 }
 
 .buttoncontainer {
@@ -192,55 +186,78 @@ body {
   padding: 25px;
 }
 
-
-
-
-
 .features {
-	padding: 5% 0;
+  padding: 5% 0;
 }
 
 .container {
-	font-family: 'Roboto','sans-serif';
-	text-align: center;
-	color:inline-block#323232;
-	font-size: 80px;
-	padding-top: 20px;
+  font-family: "Roboto", "sans-serif";
+  text-align: center;
+  color: inline-block#323232;
+  font-size: 80px;
+  padding-top: 20px;
 }
 
-
 footer {
-	background-color: #D64541;
-	position: absolute;
-	width: 100%;
-	height: auto;
+  background-color: #d64541;
+  position: absolute;
+  width: 100%;
+  height: auto;
 }
 
 footer ul li {
-	display: inline-block;
-	list-style: none;
-	float: right;
-	
+  display: inline-block;
+  list-style: none;
+  float: right;
 }
 
 footer p {
-	float: left;
+  float: left;
 }
 
 footer a,
 footer p {
-
-	vertical-align: middle;
-
-
+  vertical-align: middle;
 }
 
+div.section {
+  text-align: center;
+}
+
+.word {
+  width: 300px;
+  font-family: Garamond;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.sig {
+  margin: 0px 50px;
+  display: inline-block;
+  text-align: left;
+  font-size: 22px;
+  vertical-align: top;
+  height: 300px;
+  position: relative;
+}
+
+.from {
+  font-size: 15px;
+  position: absolute;
+  bottom: 0;
+}
+
+.name {
+  font-size: 15px;
+  position: absolute;
+  bottom: 20px;
+}
 
 /********************
-MEDIA QUERIES
-********************/
+  MEDIA QUERIES
+  ********************/
 /* @media screen and (max-width: 776px) {
-	.features img {
-		max-width: 90%;
-		margin: auto;
-	} */
+      .features img {
+          max-width: 90%;
+          margin: auto;
+      } */
